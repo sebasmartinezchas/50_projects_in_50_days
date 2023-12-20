@@ -57,7 +57,7 @@ let idx = 1;
 function updateTestimonial() {
   const { name, position, photo, text } = testimonials[idx];
   testimonial.innerHTML = text;
-  userImage.scr=photo;
+  userImage.src=photo;
   username.innerHTML = name;
   role.innerHTML = position;
 
